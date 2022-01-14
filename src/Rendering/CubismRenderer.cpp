@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Copyright(c) Live2D Inc. All rights reserved.
  *
  * Use of this source code is governed by the Live2D Open Software license
@@ -11,6 +11,17 @@
 
 //------------ LIVE2D NAMESPACE ------------
 namespace Live2D { namespace Cubism { namespace Framework { namespace Rendering {
+
+
+CubismRenderer* CubismRenderer::Create()
+{
+    return nullptr;
+}
+
+void CubismRenderer::StaticRelease()
+{
+    
+}
 
 void CubismRenderer::Delete(CubismRenderer* renderer)
 {
